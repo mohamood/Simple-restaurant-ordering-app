@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="coverImg">
+        <h1>Jimmy’s Diner</h1>
+        <p>The best burgers and pizzas in town.</p>
+      </div>
+    </header>
+    <main>
+      <!-- Food Menu section -->
+      <section id="menu">
+        <!-- Render menu Here -->
+      </section>
+
+      <!-- Order Summary secton -->
+      <section>
+        <div class="orderSummary-container" id="orderSummary-container">
+          <h3 class="orderTitle">Your order</h3>
+          <div id="itemContainer">
+            <!-- Render Selected Items here -->
+          </div>
+          <div class="total">
+            <h3 class="title">Total :</h3>
+            <h3 class="itemPrice" id="totalprice"></h3>
+          </div>
+          <button id="purchase-btn">Complete order</button>
+          `;
+        </div>
+      </section>
+      <section class="modalSection">
+        <div class="modal">
+          <h2>Enter card details</h2>
+          <form id="order-form">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+            <input
+              type="text"
+              id="card-number"
+              name="card-number"
+              pattern="[0-9]{16}"
+              placeholder="Enter card number (16 digits)"
+              required
+            />
+            <input
+              type="text"
+              id="cvv"
+              name="cvv"
+              pattern="[0-9]{3}"
+              placeholder="Enter CVV(3 characters)"
+              required
+            />
+            <button type="submit" class="submit-btn">Pay</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Message section -->
+      <section class="renderMessage"></section>
+    </main>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

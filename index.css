@@ -1,0 +1,229 @@
+/* resetting default properties */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* The header section containing cover image,title and introduction */
+
+header,
+main {
+  width: 600px;
+  margin: 0 auto;
+  font-family: 'Smythe', cursive;
+}
+
+.coverImg {
+  height: 167px;
+  background-image: url('images/coverImg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 56px 0 0 46px;
+  color: #ffffff;
+  text-shadow: 4px 4px 10px #000000;
+  margin-bottom: 67px;
+}
+
+h1 {
+  font-size: 39px;
+  margin-bottom: 16px;
+}
+h1,
+.itemIngredient,
+.selectItem span,
+.title span {
+  line-height: 24px;
+}
+.coverImg p {
+  font-size: 22.42px;
+  line-height: 13.8px;
+  margin-top: 0;
+}
+
+/* Food Menu Section */
+section {
+  padding: 0 46px;
+}
+.menuItem {
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.itemDetails-Container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.itemImg {
+  width: 70px;
+  height: 89px;
+  font-size: 78.72px;
+  line-height: 98.4px;
+  letter-spacing: -2%;
+  opacity: 72%;
+  padding-right: 14px;
+}
+.detail {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.title {
+  font-size: 28px;
+  line-height: 16.8px;
+}
+.title,
+.itemPrice {
+  color: #000000;
+}
+
+.itemIngredient {
+  color: #8b8b8b;
+}
+.itemPrice {
+  font-size: 20px;
+}
+.selectItem {
+  width: 50px;
+  height: 50px;
+  border: 1.5px solid #dedede;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.selectItem:hover {
+  border: 1.5px solid #000000;
+}
+.selectItem span {
+  display: block;
+  width: 27px;
+  height: 28.5px;
+  margin: 11px 12px 10.5px 11px;
+  font-size: 32px;
+}
+
+/* Order Summary Section- */
+.orderSummary-container {
+  height: 319px;
+}
+.orderTitle {
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.remove {
+  font-family: Verdana;
+  font-size: 12px;
+  line-height: 24px;
+  color: #bbbbbb;
+  cursor: pointer;
+}
+.remove:hover {
+  color: #000000;
+}
+.itemSelected {
+  padding-bottom: 22px;
+}
+.itemSelected,
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  margin-top: 31px;
+  border-top: 2px solid #393333;
+  padding-top: 14px;
+  margin-bottom: 53px;
+}
+
+.total h3,
+.itemSelected h3,
+.itemSelected p,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+#purchase-btn {
+  width: 504px;
+  height: 60px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-style: bold;
+  border: none;
+}
+button {
+  background-color: #16db99;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #429a7d;
+}
+.modal,
+button,
+input {
+  border-radius: 3.89px;
+}
+/* Modal section */
+.modalSection {
+  font-family: Verdana, sans-serif;
+}
+.modal {
+  display: none;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  box-sizing: border-box;
+  height: 542.24px;
+  width: 524px;
+  border: 3px solid black;
+  background-color: #ffffff;
+  text-align: center;
+}
+h2 {
+  padding-top: 47.32px;
+  margin-bottom: 46.07px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+}
+input {
+  font-size: 20px;
+  border: 1.3px solid #757575;
+  color: #757575;
+  width: 475.91px;
+  height: 71.3px;
+  margin-bottom: 23.22px;
+  padding-left: 26.53px;
+}
+.submit-btn {
+  display: block;
+  margin-top: 46.43px;
+  width: 475.91px;
+  height: 71.3px;
+  margin: 46.43px auto 0px auto;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 31.12px;
+  color: #ffffff;
+  border: none;
+}
+.message {
+  height: 120px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.message p {
+  margin: 51px 66px 51px 59px;
+  font-size: 32px;
+  line-height: 27px;
+  text-align: left;
+  color: #065f46;
+}
