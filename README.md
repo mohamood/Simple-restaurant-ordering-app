@@ -6,5 +6,5 @@
 *The name and total price of items are displayed at the bottom
 \*The user can remove any item from list and the total is updated
 
-Click below to check the demo site
+Click this link to check the demo site
 https://simplerestaurantapp.netlify.app/
